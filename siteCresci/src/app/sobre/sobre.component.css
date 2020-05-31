@@ -1,60 +1,87 @@
-.sobreBg{
-    background-image: url('../../assets/images/2-girls-hugging-each-other-outdoor-during-daytime-225017.jpg');
-    background-repeat: repeat;
-    background-size: cover;
-    min-width: 100%;
-    background-position: 30%;
+* {
+  box-sizing: border-box;
+}
+.sobreBg {
+  background-image: url("../../assets/images/2-girls-hugging-each-other-outdoor-during-daytime-225017.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  min-width: 100%;
+  background-position: 30%;
 }
 
-.secondContainer{
-    background-color: rgb(255, 255, 255);
+.sobreTextImg {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.sobreTextImg{
-    margin-bottom: 0;
-    padding-bottom: 0;
+.empresa {
+  background: rgb(243, 255, 255);
 }
 
-/* #cardBorder{
-    border: none;
-    border-bottom-left-radius: 0%;
-    border-bottom-right-radius: 0%;
+.cardPai{
+margin: 0 auto;
+padding: auto;
 }
 
-#cardBottom{
-    border: none;
-    border-top-left-radius: 0%;
-    border-top-right-radius: 0%;
-} */
-
-#equipe{
-    width: 100%;
-    padding: 1.5em;
-    background: wheat;
-    margin: 5em auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cardPai h1 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
 }
 
-.cardEquipe{
-    width: 17vw;
-    height: 33vh;
-    background: honeydew;
-    margin: 0.4em auto;
-    transition: 0.5s;
-    z-index: 2;
-   
-   
+#equipe {
+  width: 100%;
+  height: 80vh;
+  background: rgb(255, 219, 219);
+}
+
+.cardEquipe {
+  width: 17vw;
+  height: 35vh;
+  /* background: honeydew; */
+  margin: 0 auto;
+  padding: 0;
+  transition: 0.5s;
+  overflow: hidden;
+  position: relative;
+
 }
 .cardEquipe:hover{
-    width: 17vw;
-    height: 33vh;
-    background: honeydew;
-    transform: scale(1.1);
-    box-shadow: 0.3em 0.3em 0.5em  rgb(94, 94, 94);
-
+  width: 17vw;
+  height: 35vh;
+  /* background: honeydew; */
+  transform: scale(1.3);
+  box-shadow: 0.3em 0.3em 0.5em rgb(94, 94, 94);
+ 
 }
-#contri1{
-    
+
+img {
+  width: 100%;
+}
+
+.textoEquipe {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: whitesmoke;
+  transform: translateY(100%);
+  transition: all 0.5s ease-in-out;
+}
+.textoEquipe p {
+  text-align: justify;
+}
+.textoEquipe h4 {
+    text-align: center;
+    padding-top: 0.1em;
+}
+.textoEquipe h6{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.cardEquipe:hover .textoEquipe {
+  transform: translateY(0%);
+  top: 0;
 }
