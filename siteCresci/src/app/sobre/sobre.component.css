@@ -1,0 +1,60 @@
+.sobreBg{
+    background-image: url('../../assets/images/2-girls-hugging-each-other-outdoor-during-daytime-225017.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    min-width: 100%;
+    background-position: 30%;
+}
+
+.secondContainer{
+    background-color: rgb(255, 255, 255);
+}
+
+.sobreTextImg{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* #cardBorder{
+    border: none;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#cardBottom{
+    border: none;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+} */
+
+#equipe{
+    width: 100%;
+    padding: 1.5em;
+    background: wheat;
+    margin: 5em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardEquipe{
+    width: 17vw;
+    height: 33vh;
+    background: honeydew;
+    margin: 0.4em auto;
+    transition: 0.5s;
+    z-index: 2;
+   
+   
+}
+.cardEquipe:hover{
+    width: 17vw;
+    height: 33vh;
+    background: honeydew;
+    transform: scale(1.1);
+    box-shadow: 0.3em 0.3em 0.5em  rgb(94, 94, 94);
+
+}
+#contri1{
+    
+}
